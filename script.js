@@ -25,7 +25,7 @@ addbutton.addEventListener("click",function(event){
     var div=document.createElement("div")
     div.setAttribute("class","bookcontain")
     div.innerHTML=` <h2>${input1.value}</h2>
-    <h3>${input2.value}<\h3>
+    <h3>${input2.value}</h3>
     <P>${bigbox.value}</P>
     <button onclick="start(event)"class="end">Close</button>
     `
